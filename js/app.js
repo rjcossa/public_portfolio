@@ -1,4 +1,5 @@
 var data;
+/* Get the project information in JSON Format */
 $.getJSON("js/json/projects.json", function(json) {
     data = json;
     $.get("templates/project.hbs", function(templateData) {
@@ -10,7 +11,7 @@ $.getJSON("js/json/projects.json", function(json) {
 
 
 });
-
+/* Get a specific project by specifying the project's id */
 function getProject(id) {
     for(var i in data) {
         if(data.hasOwnProperty(i)) {
@@ -20,7 +21,10 @@ function getProject(id) {
         }
     }
 }
-
+/*
+Open the modal dialog with a specific project's information.
+The input is the project's id
+ */
 function openModal(id) {
     var project = getProject(id);
     $("#project-text").html(project.description);

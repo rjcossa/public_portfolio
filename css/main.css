@@ -1,60 +1,55 @@
+/*  General body customization */
 body {
     font-family: Lato, sans-serif;
     font-weight:300;
     color: #2d3c49;
 }
+/* Customizing the page's titles */
 h1 {
     font-weight: 100;
     color: #2d3c49;
     font-size: 60px;
 }
-
 h2.faded-text {
     color: #7d97ad;
     font-weight:300;
 }
-
+/* Customizing the page' buttons to be different than the bootstrap buttons */
 button {
     background: none;
     border: none;
     font-weight: 400;
 }
-
 button.modal-toggle {
     border: none;
     background-color: white;
     padding: 0;
     outline:none;
 }
-
 button.close {
     float:right;
     font-size:20px;
 }
-
+/* Customizing the Modal Dialog */
 #project-text {
     margin:10px;
     font-weight:400;
 }
-
 .modal-dialog {
     background:white;
 }
-
+/* Customizing the logo */
 .logo {
     margin:20px;
 }
-
+/* Customizing the horizontal rule */
 .thick-rule {
     border-top: 2px solid #7d97ad;
 }
-
+/* Customizing the text */
 .thick {
     font-weight: 400;
 }
-
 .medium-text {
     font-size: 1.5em;
 }
-
-
