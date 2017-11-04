@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="import" href="header_template.html" />
     <title>Rui Cossa Portfolio</title>
 </head>
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Rui's Portfolio</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="telecomm_knowledge.html">Telecomm Knowledge</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main class="container">
         <header class="row">
             <div class="col-md-6">
@@ -38,24 +54,25 @@
             </div>
         </section>
 
-        <section class="row text-center">
-            <article class="col-md-4">
-                <img src="images/batman_dark_knight.jpg" class="img-responsive" />
-                <h2 class="text-uppercase display-4">Movie Trailer Website</h2>
-                <p class="thick">https://github.com/rjcossa/movie_trailer</p>
-            </article>
-            <article class="col-md-4">
-                <img src="images/thikiti2.jpg" class="img-responsive" />
-                <h2 class="text-uppercase display-4">Thikiti</h2>
-                <p class="thick">http://thikiti.com</p>
-            </article>
-            <article class="col-md-4">
-                <img src="images/portfolio%20project.jpg" class="img-responsive" />
-                <h2 class="text-uppercase display-4">Portfolio Project</h2>
-                <p class="thick">http://linktoportfolio.com</p>
-            </article>
+        <section class="row text-center" id="project-placeholder">
         </section>
-    </main>
 
+        <div id="project-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <img id="project-image" src="" class="img-responsive"/>
+                    <p id="project-text" class="text-center"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </body>
 </html>
