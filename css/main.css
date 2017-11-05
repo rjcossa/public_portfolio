@@ -8,6 +8,7 @@ body {
 h1 {
     font-weight: 100;
     color: #2d3c49;
+    word-break:break-all;
     font-size: 60px;
 }
 h2.faded-text {
