@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43a3b068-1543-4a61-b91a-96110f296ceb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tech_banner_medium.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tech_banner_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/udacity_logo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header_template.html" afterPath="$PROJECT_DIR$/header_template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telecomm_knowledge.html" afterPath="$PROJECT_DIR$/telecomm_knowledge.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -284,12 +275,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509572055630</updated>
-      <workItem from="1509572058090" duration="32966000" />
+      <workItem from="1509572058090" duration="33049000" />
     </task>
+    <task id="LOCAL-00001" summary="Project Review Implementation">
+      <created>1509865274872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509865274872</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32966000" />
+    <option name="totallyTimeSpent" value="33049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
@@ -317,6 +316,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project Review Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Review Implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
